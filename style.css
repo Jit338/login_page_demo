@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/R.4a1f13308294eef83026456bee45cbc8?rik=7kH62xQW0YHTMQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f1%2fe%2f1200208-4k-ultra-hd-nature-wallpaper-3840x2160-4k.jpg&ehk=2eUewHmpLRBIU2mm5kX4BAQJ4EdRapxBaVIfuiqYqE0%3d&risl=1&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: 0;
+    background-position: left;
+}
+
+.box{
+    height:380px;
+    width:320px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 16px;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgb(45,45,45);
+}
+.eye{
+    position: relative;
+    right: 20px;
+}
+.enter{
+    width: 280px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.box h1{
+    font-size: 50px;
+}
+
+#p1{
+    width: 320px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box button{
+    height: 40px;
+    width: 320px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color:blue;
+    color: white;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(174, 165, 248);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.box button:hover{
+    cursor: pointer;
+}
+
+.box button:active{
+    background-color:rgb(101, 101, 255);;
+}
