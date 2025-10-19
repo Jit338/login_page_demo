@@ -26,10 +26,6 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgb(45,45,45);
 }
-.eye{
-    position: relative;
-    right: 20px;
-}
 .enter{
     width: 280px;
     height: 40px;
